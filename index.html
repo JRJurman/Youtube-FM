@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<style>
+			body {
+				font-size: 1.5em;
+			}
+
+			main {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: 2em 1fr;
+			}
+		</style>
+
+		<title>Youtube FM</title>
+
+		<!-- libraries -->
+		<link rel="stylesheet" href="https://unpkg.com/open-props@1.5.8" />
+		<link rel="stylesheet" href="https://unpkg.com/open-props@1.5.8/normalize.min.css" />
+		<script src="https://unpkg.com/tram-lite@2.1.0"></script>
+
+		<!-- import components -->
+		<script src="./components/index.js"></script>
+	</head>
+	<body>
+		<youtube-fm-components></youtube-fm-components>
+		<main>
+			<fm-header></fm-header>
+			<fm-selection></fm-selection>
+		</main>
+	</body>
+</html>
