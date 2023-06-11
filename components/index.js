@@ -4,5 +4,6 @@ define`
 		<script src="./components/fm-modal.js"></script>
 		<script src="./components/fm-selection.js"></script>
 		<script src="./components/fm-viewport.js"></script>
+		<script src="./components/fm-selection-grid.js"></script>
 	</youtube-fm-components>
 `;

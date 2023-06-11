@@ -2,11 +2,16 @@ define`
 	<fm-header>
 		<style>
 			header {
-				/* TODO - use real colors here */
 				background: black;
 				color: white;
 			}
+			h1 {
+				margin: 0;
+				padding-left: 0.3em;
+			}
 		</style>
-		<header>Youtube FM</header>
+		<header>
+			<h1>Youtube FM</h1>
+		</header>
 	</fm-header>
 `;
